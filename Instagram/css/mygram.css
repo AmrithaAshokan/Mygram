@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Jost:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f0f0;
+}
+
+nav {
+  background-color: white;
+  width: 250px;
+  height: 100vh;
+}
+nav h1 {
+  font-family: Cookie;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 0.6em;
+  padding-bottom: 0.8em;
+}
+nav .profile-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav .profile-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fe446d;
+}
+nav .profile-pic h4 {
+  font-family: jost;
+  font-weight: 700;
+  font-size: 1rem;
+}
+nav .profile-pic p {
+  font-family: jost;
+  color: rgba(0, 0, 0, 0.354);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+nav .sts-container {
+  padding-top: 0.8em;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.046);
+}
+nav .sts-container p {
+  font-size: 0.9rem;
+  font-family: Jost;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav .sts-container p span {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  height: 50%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+nav ul li {
+  width: 100%;
+  padding-left: 5em;
+  font-family: Jost;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.482);
+  cursor: pointer;
+}
+nav ul li:hover {
+  border-left: 4px solid #fe446d;
+  color: #fe446d;
+}/*# sourceMappingURL=mygram.css.map */
